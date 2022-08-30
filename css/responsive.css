@@ -1,0 +1,56 @@
+/* responsive */
+@media only screen and (max-width: 1140px){
+    .container{
+        width: 950px;
+    }
+    .col-sm-12{
+        width: 100%;
+        padding: 1.5rem;
+    }
+    .header_header{
+        display: none;
+    }
+    .footer_header{
+        display: none;
+    }
+    .header_mobie{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 11.25rem;
+        padding: 3rem;
+    }
+    .header_mobie>h4{
+        font-size: 50px;
+    }
+    .header_mobie .Menu_box ul li{
+        border: 1px solid white;
+        border-radius: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        padding: 0 20px;
+        background-color: #f38181;
+    }
+    .header_mobie .Menu_box ul li a{
+        display: block;
+        line-height: 25px;
+		padding: 10px 20px;
+    }
+    .header_mobie .Menu_box ul li a span{
+        display: block;
+		margin-left: 10px;
+        padding-right: 10px;
+    }
+    .header_mobie .Menu_box ul li a span i{
+        margin-left: 2px;
+    }
+    .header_mobie .Menu_box ul ul{
+        display: none;
+    }
+    .header_mobie .Menu_box ul li:hover >ul{
+        display: block;
+        position: absolute;
+        top:3rem;
+        left:0;
+    }
+}
